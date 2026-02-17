@@ -1,0 +1,4 @@
+[build-system]
+# 指定打包依赖和构建后端
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

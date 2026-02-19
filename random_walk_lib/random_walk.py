@@ -52,6 +52,8 @@ class RandomWalk:
                 print(f"Step {step}: x={self.rn[0]}, y={self.rn[1]}")
         return self.all_positions
 
+    fill_walk = walk
+
     def plot_walk(self, figsize: tuple = (8, 6)) -> None:
         """
         可视化随机游走路径（需安装matplotlib）
